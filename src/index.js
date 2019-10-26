@@ -2,14 +2,15 @@ import React from "react";
 import ReactDOM from "react-dom";
 
 // Components
-import Login from "./components/Login";
+import AppNav from "./components/AppNav";
 
+// Styles
 import "./styles.css";
 
 function App() {
   return (
     <div className="App">
-      <Login />
+      <AppNav />
     </div>
   );
 }
